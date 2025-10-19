@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.buttons {
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    button {
+        width: 178px;
+        height: 37px;
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        background: var(--white-color);
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: var(--blue-color);
+        border-bottom: 2px solid var(--blue-color);
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .container {
+          flex-direction: column;
+  align-items: center;
+        margin-top: 42px;
+    }
+
+    .buttons {
+        gap: 30px;
+
+        button {
+            width: 158px;
+            height: 26px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}

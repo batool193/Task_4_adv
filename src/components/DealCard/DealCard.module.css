@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  width: 31.566%;
+  position: relative;
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+
+  }
+}
+
+.btn {
+  display: flex;
+  gap: 7px;
+  margin-left: 14px;
+  position: absolute;
+  padding-top: 14px;
+
+  .btnfeat {
+    width: 79.0187px;
+    height: 26px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid #FFFFFF;
+    background: #22222266;
+  }
+
+  .btn3D {
+    width: 30.0071px;
+    height: 26px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid #FFFFFF;
+    background: #22222266;
+
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+
+  .card {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+}
