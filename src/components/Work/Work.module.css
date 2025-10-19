@@ -33,7 +33,7 @@
     }
 }
 
-.card:nth-child(2) {
+/* .card:nth-child(2) {
     background: var(--blue-color);
     color: var(--white-color);
     border-radius: 15px;
@@ -41,7 +41,16 @@
     p {
         color: var(--white-color);
     }
-}
+} */
+ .card:hover{
+        background: var(--blue-color);
+    color: var(--white-color);
+    border-radius: 15px;
+
+    p {
+        color: var(--white-color);
+    }
+ }
 @media screen and (max-width: 992px) {
 .work {
     display: flex;
