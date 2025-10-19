@@ -32,17 +32,16 @@
         color: var(--gray-color);
     }
 }
- .card:hover{
-        background: var(--blue-color);
+
+.card:nth-child(2) {
+    background: var(--blue-color);
     color: var(--white-color);
     border-radius: 15px;
-img{
-    color:var(--white-color)
-}
+
     p {
         color: var(--white-color);
     }
- }
+}
 @media screen and (max-width: 992px) {
 .work {
     display: flex;
